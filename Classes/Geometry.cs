@@ -1,6 +1,4 @@
-
-
-using System.Numerics;
+using OpenTK.Mathematics;
 using Raytracing.Common;
 
 namespace Raytracing.Geometry
@@ -19,7 +17,6 @@ namespace Raytracing.Geometry
             normal = front_face ? outward_normal : -outward_normal;
         }
     }
-
 
     public interface IHittable
     {
@@ -42,9 +39,9 @@ namespace Raytracing.Geometry
             rec = new HitRecord();
 
             Vector3 oc = r.Origin - center;
-            float a = r.Direction.LengthSquared();
+            float a = r.Direction.LengthSquared;
             float half_b = Vector3.Dot(oc, r.Direction);
-            float c = oc.LengthSquared() - radius * radius;
+            float c = oc.LengthSquared - radius * radius;
             float discriminant = half_b * half_b - a * c;
 
             if (discriminant < 0)

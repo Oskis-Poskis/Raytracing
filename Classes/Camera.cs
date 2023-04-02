@@ -1,4 +1,4 @@
-using System.Numerics;
+using OpenTK.Mathematics;
 using Raytracing.Common;
 
 public class Camera

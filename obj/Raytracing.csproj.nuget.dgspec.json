@@ -40,9 +40,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "ImGui.NET": {
+              "target": "Package",
+              "version": "[1.89.4, )"
+            },
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "opentk": {
+              "target": "Package",
+              "version": "[4.7.7, )"
             }
           },
           "imports": [

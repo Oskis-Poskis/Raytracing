@@ -1,4 +1,4 @@
-using System.Numerics;
+using OpenTK.Mathematics;
 using System.Drawing;
 
 namespace Raytracing.Common
@@ -43,7 +43,7 @@ namespace Raytracing.Common
     {
         public static Vector3 unit_vector(Vector3 v)
         {
-            return v / v.Length();
+            return v / v.Length;
         }
     }
 
@@ -71,7 +71,7 @@ namespace Raytracing.Common
             while (true)
             {
                 Vector3 p = new Vector3(RandomUtility.RandomFloat(-1, 1), RandomUtility.RandomFloat(-1, 1), RandomUtility.RandomFloat(-1, 1));
-                if (p.LengthSquared() >= 1) continue;
+                if (p.LengthSquared >= 1) continue;
                 return p;
             }
         }
