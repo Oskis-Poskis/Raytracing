@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0COdO9+gXbI7DVbeenlFaRAjNPmb/Lfkvnb57DT6WEchAUP77CE0/pjEhAqYsJ/z/QZQVR/Kytz67GT1QUWeiQ==",
+  "success": true,
+  "projectFilePath": "E:\\VScodeTesting\\Raytracing\\Raytracing.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OskisPoskis\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\OskisPoskis\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
